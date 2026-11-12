@@ -9,7 +9,7 @@ lifecycleRuntimeKtx = "2.9.0"
 activityCompose = "1.12.0"
 composeBom = "2024.09.00"
 room = "2.8.4"
-kspver = "2.8.21-1.0.26"
+kspver = "2.0.21-1.0.28"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
