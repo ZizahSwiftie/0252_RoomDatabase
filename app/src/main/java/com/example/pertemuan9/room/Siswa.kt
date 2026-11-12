@@ -1,4 +1,4 @@
-package com.example.pertemuan9
+package com.example.pertemuan9.room
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
