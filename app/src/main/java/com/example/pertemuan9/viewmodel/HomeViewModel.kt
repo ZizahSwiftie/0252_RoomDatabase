@@ -1,4 +1,4 @@
-package com.example.pertemuan9.view
+package com.example.pertemuan9.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
