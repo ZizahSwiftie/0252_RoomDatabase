@@ -1,4 +1,4 @@
-package com.example.pertemuan9
+package com.example.pertemuan9.room
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface SiswaDao {
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert(onConflict = OnConflictStrategy.Companion.IGNORE)
     suspend fun insert(siswa: Siswa)
 
     @Query(value = "SELECT * from tblSiswa ORDER BY nama ASC")
